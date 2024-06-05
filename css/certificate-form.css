@@ -1,0 +1,53 @@
+#certificate-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#certificate-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#certificate-form input[type="text"],
+#certificate-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+#certificate-form input[type="submit"] {
+    background-color: #0073aa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#certificate-form input[type="submit"]:hover {
+    background-color: #005177;
+}
+
+.certificate-success {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.certificate-success h2 {
+    color: #0073aa;
+}
+
+.certificate-success .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.certificate-success .button:hover {
+    background-color: #005177;
+}
